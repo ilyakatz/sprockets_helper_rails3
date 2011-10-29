@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "lib/sprockets_helper_rails3.rb",
     "spec/helpers/assets_helper_spec.rb",
     "spec/spec_helper.rb",
+    "sprockets_helper_rails3.gemspec",
     "test/rails_app/app/assets/javascripts/application.js",
     "test/rails_app/app/assets/stylesheets/application.css",
     "test/rails_app/config/application.rb",
