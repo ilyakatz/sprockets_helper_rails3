@@ -1,1 +1,1 @@
-require 'sprockets_helper_rails3/initializers/sprockets_helper'
+require 'initializers/sprockets_helper'
