@@ -1,0 +1,1 @@
+require 'sprockets_helper/initializers/sprockets_helper'
