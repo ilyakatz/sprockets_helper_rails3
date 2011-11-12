@@ -1,6 +1,31 @@
 = sprockets_helper
 
-Description goes here.
+Sprocket is great for Rails 3.1
+However, if you are still using Rails 3.0 it is suprisingly inconvenient to attach file fingerprint to asset files such as
+
+  <link href="http://localhost:3000/assets/application.css?97cb5298fef6238569b12e175bc19648" media="all" rel="stylesheet" type="text/css" />
+
+This gem attempt to make this task a little easier
+
+== Installation
+
+In <b>Rails 3</b>, add this to your Gemfile and run the +bundle+ command.
+
+  gem "cancan"
+
+== Usage
+
+  Continue using JavaScript and CSS helpers as you normally would. sprockets_helper will determine if the asset is managed by sprockets
+  and if it is appropriate inclusion will be generated with fingerprint information.
+
+  If you have application.js managed by Sprockets, you can use any of the following to generate correct HTML code that will have
+  asset file with fingerprint
+
+  javascript_include_tag("application")
+  javascript_include_tag("/assets/application")
+  javascript_include_tag("/assets/application.js")
+  stylesheet_link_tag("application.css")
+  stylesheet_link_tag("/assets/application.css", :media=>:all)
 
 == Contributing to sprockets_helper
  
