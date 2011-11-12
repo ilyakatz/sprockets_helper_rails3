@@ -15,11 +15,11 @@ In <b>Rails 3</b>, add this to your Gemfile and run the +bundle+ command.
 
 == Usage
 
-  Continue using JavaScript and CSS helpers as you normally would. sprockets_helper will determine if the asset is managed by sprockets
-  and if it is appropriate inclusion will be generated with fingerprint information.
+Continue using JavaScript and CSS helpers as you normally would. sprockets_helper will determine if the asset is managed by sprockets
+and if it is appropriate inclusion will be generated with fingerprint information.
 
-  If you have application.js managed by Sprockets, you can use any of the following to generate correct HTML code that will have
-  asset file with fingerprint
+If you have application.js managed by Sprockets, you can use any of the following to generate correct HTML code that will have
+asset file with fingerprint
 
   javascript_include_tag("application")
   javascript_include_tag("/assets/application")
