@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{sprockets_helper_rails3}
-  s.version = "0.0.3"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ilya Katz"]
-  s.date = %q{2011-10-29}
+  s.date = %q{2011-11-11}
   s.description = %q{A helper gem that attaches fingerprint for static assets (js/css) using sprockets in rails 3.0}
   s.email = %q{ilyakatz@gmail.com}
   s.extra_rdoc_files = [
