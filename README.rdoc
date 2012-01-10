@@ -11,7 +11,7 @@ This gem attempt to make this task a little easier
 
 In <b>Rails 3</b>, add this to your Gemfile and run the +bundle+ command.
 
-  gem "cancan"
+  gem "sprockets_helper_rails3"
 
 == Usage
 
